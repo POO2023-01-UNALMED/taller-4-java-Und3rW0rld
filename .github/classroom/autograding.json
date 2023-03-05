@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test main",
+      "setup": "",
+      "run": "gradle test --tests *TestCoincidencia",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Test constructores",
+      "setup": "",
+      "run": "gradle test --tests *TestConstructor",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
